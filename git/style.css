@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+
+  #main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #9A5EC2;
+  }
+  .container{
+    /* border: 1px solid #fff; */
+    box-shadow: 6px 6px 30px rgba(255, 255, 255, 0.856);
+    position: relative;
+    height: 470px;
+    width: 340px;
+    background-color: #A367B1;  
+  }
+  .headings{
+    display: flex;
+    /* border-bottom: 1px solid #fff; */
+    gap: 10px;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .dp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+  }
+  /* .dp img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  } */
+  .headings h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+  }
+  .headings p{
+    font-weight: 700;
+    opacity: 0.4;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+  }
+  .image{
+    padding: 4px;
+    object-fit: cover;
+    height: 340px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .image img{
+    /* border-radius: 10px; */
+    height: 100%;
+    width: 100%;
+  }
+  .bottom{
+    width: 100%;
+    height: calc(100% - 390px);
+    background-color: rgb(255, 255, 255);
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    padding-left: 15px;
+    gap: 10px;
+    /* background-color: rgb(156, 156, 156); */
+  }
+  .bottom i {
+    opacity: 0.7;
+    color: #000000;
+    font-size: 25px;
+    /* margin-left: 10px */
+  }
+  .text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+  }
+  .text #last{
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .likes{
+    padding-left: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 100%;
+    /* background-color: firebrick; */
+  }
+  .container #fast{
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transition: transform ease 0.3s;
+    transform: translate(-50% , -50%)scale(0);
+    position: absolute;
+    font-size: 130px;
+    color: white;}
